@@ -1,0 +1,217 @@
+
+  @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=greek-ext');
+  body{
+    background-image: url(logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 80;
+    font-family: 'Noto Sans', sans-serif;
+}
+.text-center{
+	color:rgb(0, 0, 0);	
+	text-transform:uppercase;
+    font-size: 23px;
+    margin: 10px 0 100px 0;
+    display: block;
+    text-align: center;
+}
+.text-center2{
+	color:rgb(0, 0, 0);	
+	text-transform:uppercase;
+    font-size: 23px;
+    margin: 40px 0 50px 0;
+    display: block;
+    text-align: center;
+}
+.box{
+	position:absolute;
+	left:50%;
+	top:130%;
+	transform: translate(-50%,-50%);
+  background: rgba(255,255,255,0.5);
+	border-radius:10px;
+	padding:70px 100px;
+}
+
+.box2{
+    position:absolute;
+    left:50%;
+    top:80%;
+    width: 430px;
+    height: 420px;
+    transform: translate(-50%,-50%);
+    background-color: rgba(49, 44, 44, 0.89);
+    border-radius:3px;
+    padding:70px 100px;
+}
+.input-container{
+	position:relative;
+	margin-bottom:25px;
+}
+.input-container label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:rgb(0, 0, 0);	
+	transition: all 0.5s ease-in-out;
+}
+.input-container text{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:rgb(0, 0, 0);	
+}
+.input-container p{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:rgb(0, 0, 0);	
+}
+.input-container input{ 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:rgb(0, 0, 0);
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+.btn{
+	color:#fff;
+	background-color:#e74c3c;
+	outline: none;
+    border: 0;
+    color: #fff;
+	padding:10px 20px;
+	text-transform:uppercase;
+	margin-top:50px;
+	border-radius:2px;
+	cursor:pointer;
+	position:relative;
+}
+.hovertext {
+    position: relative;
+    border-bottom: 1px dotted black;
+  }
+  
+  .hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 1s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+  .hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        display: none;
+ }
+
+@media (min-width: 1025px) {
+  .h-custom-2 {
+    height: 100%;
+  }
+}
+
+   .input-container a {
+      font-family:viga;
+      float: left;
+      display: block;
+      color: #8d0808;
+      text-align: center;
+      padding: 5px 8px;
+      text-decoration: none;
+      font-size: 18px;
+      border: 1.5px solid darkorange;
+      border-radius: 8px;
+      margin-top: 15px;
+      margin-left: 20px;
+    margin-right: 20px;
+    }
+
+    .input-container a:hover {
+      background-color: rgb(255, 255, 255);
+    color: goldenrod;
+  }
+
+/* header {
+  position: top;
+  left: 0;
+  right: 0;
+  top: 5px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+  overflow: hidden;
+  background-color: #666666;
+  opacity: 80%;
+  position: top;
+  top: 0;
+  width: 100%;
+  }
+
+  header * {
+    display: inline;
+    }
+    
+    header li {
+    margin: 20px;
+    }
+    
+    header li a {
+    color: white;
+    text-decoration: none;
+    }
+    header li b {
+      color: white;
+      text-decoration: none;
+      }
+
+    header a {
+      float: left;
+      display: block;
+      color: #eeeeee;
+      text-align: center;
+      padding: 15px 18px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    header b {
+      float: right;
+      display: block;
+      color: #eeeeee;
+      text-align: right;
+      padding: 15px 18px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    header a:hover {
+      color: #1c87c9;
+    }
+    header b:hover {
+      color: #1c87c9;
+    }
